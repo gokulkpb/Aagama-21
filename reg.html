@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER HERE!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+            height: 7vh;
+            width: 20vw;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+    <ul class="nav-area">
+        <li><a href="index.html">Home</a></li></ul>
+    <form action="reg_db.php" method="POST">
+<div class="login-box">
+    <h1>Register Here!</h1>
+
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="number" placeholder="Admission number" name = "adm_no" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Name" name = "fname" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="email" placeholder="Email" name = "email" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Gender (F/M) " name = "sex" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Department" name = "dept" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="number" placeholder="Year(1/2/3/4/5)" name = "year" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="number" placeholder="Mobile Number" name = "mobile" required>
+          </div>
+
+          <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="Password" placeholder="Choose a password for the account" name = "password" required>
+          </div>
+
+          <input type="Submit" class="btn" value="Sign up" required>
+
+</div>
+    </form>
+
+</body>
+</html>
